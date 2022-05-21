@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    src: url('../fonts/Montserrat/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    src: url('../fonts/Montserrat/Montserrat-Black.ttf');
+}
+
+
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 200;
+    src: url('../fonts/Raleway/Raleway-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 300;
+    src: url('../fonts/Raleway/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 400;
+    src: url('../fonts/Raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 500;
+    src: url('../fonts/Raleway/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 600;
+    src: url('../fonts/Raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 700;
+    src: url('../fonts/Raleway/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 900;
+    src: url('../fonts/Raleway/Raleway-Black.ttf');
+}
+
+.card {
+    @apply w-48 h-64 shadow-md shadow-neutral-500 rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl font-Montserrat
+}
+
+.card-img {
+    @apply w-full h-3/5 rounded-t-lg
+}
+
+.card-featured--title {
+    @apply text-3xl px-8 pt-4 pb-2 font-semibold 
+}
+
+.footer-menu {
+    @apply hover:text-lg hover:transform hover:translate-x-2 hover:transition-all duration-500
+}
